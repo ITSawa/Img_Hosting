@@ -1,0 +1,21 @@
+# Project Setup and Launch Guide
+
+# Before using the application, you must set up the required databases within Docker environments. To do this, first, 
+# navigate to the docker directory by running cd ./docker/ and initialize the Docker environments by executing node docker_boot.js start. This command will start two Docker environments necessary for the project.
+
+# For the Auth Server Database Setup, access the Docker container for the Auth Server using the command 
+# sudo docker-compose exec db psql -U imagehosting_users_admin -d imagehosting_users. Once inside the container, create the users table by executing the following SQL command:
+
+# CREATE TABLE users (id SERIAL PRIMARY KEY, name varchar(255), email varchar(255), password varchar(255), created_at timestamp, client_id varchar(255), role varchar(255));
+
+# Next, for the Gallery Server Database Setup, access the Docker container for the Gallery Server using the command 
+# sudo docker-compose exec db psql -U imagehosting_galery_admin -d imagehosting_galery. Inside this container, create the gallery table by executing the following SQL command:
+
+# CREATE TABLE gallery (id SERIAL PRIMARY KEY, owner_id int, owner_name varchar(255), image_address varchar(255), created_at timestamp, views int, file_label varchar(255), public boolean);
+
+# In addition to setting up the databases, you also need to create environment variable files (.env) for both the Auth Server and the Gallery Server. For the Auth Server, create an .env file in the ./auth_server/ directory. For the Gallery Server, create an .env file in the ./storage_server/controllers/ directory.
+
+# Finally, you can configure the ports by editing the .env files or directly in the service_starter.js file located in the ./dev_ops/ directory. Note that the ports defined in service_starter.js have the highest priority.
+# command npm start in ./dev_ops directory will start the project also you can start it with node services_starter.js
+
+# By following these steps, you will have your project environment set up and ready to run. Make sure all configurations are correctly applied to avoid any issues during runtime.

@@ -1,0 +1,45 @@
+:root {
+  --primary-color: #151518;
+  --primary-btn-bg-color: #00d1b2;
+  --primary-btn-bg-color-hover: #00f4a9;
+}
+
+header {
+  max-height: 100px;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+html {
+  background-color: var(--primary-color);
+}
+
+.close-button {
+  position: absolute;
+  top: 25px;
+  right: 30px;
+  font-size: 24px;
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.close-button:hover {
+  color: #00d1b2 !important;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+button {
+  color: rgb(226, 240, 255) !important;
+}
+
+img {
+  background-color: var(--primary-color) !important;
+  border: none !important;
+}

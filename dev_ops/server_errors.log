@@ -1,0 +1,2335 @@
+2024-08-28T15:35:42.796Z - [Upload Server] [Upload Server ERROR] /home/svl/Documents/projects/hostings/image_hosting/service/upload_server/controllers/env.controller.js:10
+        throw new Error(`Environment variable ${key} not found`);
+        ^
+
+Error: Environment variable ACCESS_SECRET not found
+    at getEnv (/home/svl/Documents/projects/hostings/image_hosting/service/upload_server/controllers/env.controller.js:10:15)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/upload_server/controllers/env.controller.js:14:23)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/upload_server/config.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+
+Node.js v20.15.1
+2024-08-28T15:35:42.800Z - [Upload Server] Upload Server exited with code 1 and signal null
+2024-08-28T15:35:42.830Z - [Static Server] [Static Server ERROR] node:events:497
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::4400
+    at Server.setupListenHandle [as _listen2] (node:net:1898:16)
+    at listenInCluster (node:net:1946:12)
+    at Server.listen (node:net:2044:7)
+    at Application.listen (/home/svl/Documents/projects/hostings/image_hosting/service/static_server/server/node_modules/koa/lib/application.js:88:19)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/static_server/server/server.js:44:5)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1925:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 4400
+}
+
+Node.js v20.15.1
+2024-08-28T15:35:42.833Z - [Static Server] Static Server exited with code 1 and signal null
+2024-08-28T15:35:47.831Z - [Upload Server] [Upload Server ERROR] /home/svl/Documents/projects/hostings/image_hosting/service/upload_server/controllers/env.controller.js:10
+        throw new Error(`Environment variable ${key} not found`);
+        ^
+
+Error: Environment variable ACCESS_SECRET not found
+    at getEnv (/home/svl/Documents/projects/hostings/image_hosting/service/upload_server/controllers/env.controller.js:10:15)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/upload_server/controllers/env.controller.js:14:23)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/upload_server/config.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+
+Node.js v20.15.1
+2024-08-28T15:35:47.834Z - [Upload Server] Upload Server exited with code 1 and signal null
+2024-08-28T15:35:47.890Z - [Static Server] [Static Server ERROR] node:events:497
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::4400
+    at Server.setupListenHandle [as _listen2] (node:net:1898:16)
+    at listenInCluster (node:net:1946:12)
+    at Server.listen (node:net:2044:7)
+    at Application.listen (/home/svl/Documents/projects/hostings/image_hosting/service/static_server/server/node_modules/koa/lib/application.js:88:19)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/static_server/server/server.js:44:5)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1925:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 4400
+}
+
+Node.js v20.15.1
+2024-08-28T15:35:47.893Z - [Static Server] Static Server exited with code 1 and signal null
+2024-08-28T15:35:52.876Z - [Upload Server] [Upload Server ERROR] /home/svl/Documents/projects/hostings/image_hosting/service/upload_server/controllers/env.controller.js:10
+        throw new Error(`Environment variable ${key} not found`);
+        ^
+
+Error: Environment variable ACCESS_SECRET not found
+    at getEnv (/home/svl/Documents/projects/hostings/image_hosting/service/upload_server/controllers/env.controller.js:10:15)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/upload_server/controllers/env.controller.js:14:23)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/upload_server/config.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+
+Node.js v20.15.1
+2024-08-28T15:35:52.878Z - [Upload Server] Upload Server exited with code 1 and signal null
+2024-08-28T15:35:52.954Z - [Static Server] [Static Server ERROR] node:events:497
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::4400
+    at Server.setupListenHandle [as _listen2] (node:net:1898:16)
+    at listenInCluster (node:net:1946:12)
+    at Server.listen (node:net:2044:7)
+    at Application.listen (/home/svl/Documents/projects/hostings/image_hosting/service/static_server/server/node_modules/koa/lib/application.js:88:19)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/static_server/server/server.js:44:5)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1925:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 4400
+}
+
+Node.js v20.15.1
+2024-08-28T15:35:52.957Z - [Static Server] Static Server exited with code 1 and signal null
+2024-08-28T15:36:45.595Z - [Upload Server] [Upload Server ERROR] /home/svl/Documents/projects/hostings/image_hosting/service/upload_server/controllers/env.controller.js:10
+        throw new Error(`Environment variable ${key} not found`);
+        ^
+
+Error: Environment variable ACCESS_SECRET not found
+    at getEnv (/home/svl/Documents/projects/hostings/image_hosting/service/upload_server/controllers/env.controller.js:10:15)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/upload_server/controllers/env.controller.js:14:23)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/upload_server/config.js:2:20)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+
+Node.js v20.15.1
+2024-08-28T15:36:45.601Z - [Upload Server] Upload Server exited with code 1 and signal null
+2024-08-28T15:47:09.444Z - [Auth Server] [Auth Server ERROR] 2024/08/28 18:47:09 Error starting server: failed to listen: listen tcp4 :4401: bind: address already in use
+2024-08-28T15:47:09.445Z - [Auth Server] [Auth Server ERROR] exit status 1
+2024-08-28T15:47:09.450Z - [Auth Server] Auth Server exited with code 1 and signal null
+2024-08-28T15:49:31.991Z - [Auth Server] [Auth Server ERROR] 2024/08/28 18:49:31 Error starting server: failed to listen: listen tcp4 :4401: bind: address already in use
+2024-08-28T15:49:31.992Z - [Auth Server] [Auth Server ERROR] exit status 1
+2024-08-28T15:49:31.997Z - [Auth Server] Auth Server exited with code 1 and signal null
+2024-08-28T15:49:37.458Z - [Auth Server] [Auth Server ERROR] 2024/08/28 18:49:37 Error starting server: failed to listen: listen tcp4 :4401: bind: address already in use
+2024-08-28T15:49:37.459Z - [Auth Server] [Auth Server ERROR] exit status 1
+2024-08-28T15:49:37.464Z - [Auth Server] Auth Server exited with code 1 and signal null
+2024-08-28T15:49:42.883Z - [Auth Server] [Auth Server ERROR] 2024/08/28 18:49:42 Error starting server: failed to listen: listen tcp4 :4401: bind: address already in use
+2024-08-28T15:49:42.884Z - [Auth Server] [Auth Server ERROR] exit status 1
+2024-08-28T15:49:42.889Z - [Auth Server] Auth Server exited with code 1 and signal null
+2024-08-28T15:49:48.363Z - [Auth Server] [Auth Server ERROR] 2024/08/28 18:49:48 Error starting server: failed to listen: listen tcp4 :4401: bind: address already in use
+2024-08-28T15:49:48.364Z - [Auth Server] [Auth Server ERROR] exit status 1
+2024-08-28T15:49:48.369Z - [Auth Server] Auth Server exited with code 1 and signal null
+2024-08-28T15:49:53.827Z - [Auth Server] [Auth Server ERROR] 2024/08/28 18:49:53 Error starting server: failed to listen: listen tcp4 :4401: bind: address already in use
+2024-08-28T15:49:53.828Z - [Auth Server] [Auth Server ERROR] exit status 1
+2024-08-28T15:49:53.832Z - [Auth Server] Auth Server exited with code 1 and signal null
+2024-08-28T15:53:06.045Z - [Auth Server] [Auth Server ERROR] 2024/08/28 18:53:06 Error starting server: failed to listen: listen tcp4 :4401: bind: address already in use
+2024-08-28T15:53:06.045Z - [Auth Server] [Auth Server ERROR] exit status 1
+2024-08-28T15:53:06.050Z - [Auth Server] Auth Server exited with code 1 and signal null
+2024-08-28T16:03:05.894Z - [Auth Server] [Auth Server ERROR] 2024/08/28 19:03:05 Server started on port: 4401
+2024-08-28T16:03:31.743Z - [Auth Server] [Auth Server ERROR] 2024/08/28 19:03:31 Server started on port: 4401
+2024-08-28T16:03:49.016Z - [Auth Server] [Auth Server ERROR] flag provided but not defined: -port 4401
+Usage of /tmp/go-build1345926583/b001/exe/server:
+  -port string
+    	Port on which the server will run (default "4401")
+2024-08-28T16:03:49.017Z - [Auth Server] [Auth Server ERROR] exit status 2
+2024-08-28T16:03:49.022Z - [Auth Server] Auth Server exited with code 1 and signal null
+2024-08-28T16:03:54.316Z - [Auth Server] [Auth Server ERROR] flag provided but not defined: -port 4401
+Usage of /tmp/go-build1518553918/b001/exe/server:
+  -port string
+    	Port on which the server will run (default "4401")
+2024-08-28T16:03:54.317Z - [Auth Server] [Auth Server ERROR] exit status 2
+2024-08-28T16:03:54.321Z - [Auth Server] Auth Server exited with code 1 and signal null
+2024-08-28T16:04:10.859Z - [Auth Server] [Auth Server ERROR] flag provided but not defined: -port 4401
+Usage of /tmp/go-build2898995692/b001/exe/server:
+  -port string
+    	Port on which the server will run (default "4401")
+2024-08-28T16:04:10.860Z - [Auth Server] [Auth Server ERROR] exit status 2
+2024-08-28T16:04:10.865Z - [Auth Server] Auth Server exited with code 1 and signal null
+2024-08-28T16:05:00.007Z - [Auth Server] [Auth Server ERROR] 2024/08/28 19:05:00 Server started on port: 4401
+2024-08-28T16:05:07.087Z - [Auth Server] [Auth Server ERROR] 2024/08/28 19:05:07 Server started on port: 4405
+2024-08-28T16:05:25.237Z - [Auth Server] [Auth Server ERROR] 2024/08/28 19:05:25 Server started on port: 4401
+2024-08-28T16:05:32.012Z - [Auth Server] [Auth Server ERROR] 2024/08/28 19:05:32 Server started on port: 44015
+2024-08-28T16:08:20.926Z - [Auth Server] [Auth Server ERROR] 2024/08/28 19:08:20 Server started on port: 4401
+2024-08-28T19:41:19.709Z - [Static Server] [Static Server ERROR] Error occurred: [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-08-28T19:41:19.711Z - [Static Server] [Static Server ERROR] Server crashed with error: 
+ [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-08-28T19:41:20.647Z - [Static Server] [Static Server ERROR] Error occurred: [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-08-28T19:41:20.648Z - [Static Server] [Static Server ERROR] Server crashed with error: 
+ [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-08-29T11:26:48.821Z - [Auth Server] [Auth Server] 2024/08/29 14:26:48 [31;1m/home/svl/Documents/projects/hostings/image_hosting/service/auth_server/controllers/database.go:58 [35;1mERROR: relation "users" does not exist (SQLSTATE 42P01)
+[0m[33m[2.098ms] [34;1m[rows:0][0m SELECT * FROM "users" WHERE email = 'savely1@gmail.com' ORDER BY "users"."id" LIMIT 1
+2024-08-29T11:26:49.438Z - [Auth Server] [Auth Server] 2024/08/29 14:26:49 [31;1m/home/svl/Documents/projects/hostings/image_hosting/service/auth_server/controllers/database.go:58 [35;1mERROR: relation "users" does not exist (SQLSTATE 42P01)
+[0m[33m[0.360ms] [34;1m[rows:0][0m SELECT * FROM "users" WHERE email = 'savely1@gmail.com' ORDER BY "users"."id" LIMIT 1
+2024-08-29T11:26:49.624Z - [Auth Server] [Auth Server] 2024/08/29 14:26:49 [31;1m/home/svl/Documents/projects/hostings/image_hosting/service/auth_server/controllers/database.go:58 [35;1mERROR: relation "users" does not exist (SQLSTATE 42P01)
+[0m[33m[0.452ms] [34;1m[rows:0][0m SELECT * FROM "users" WHERE email = 'savely1@gmail.com' ORDER BY "users"."id" LIMIT 1
+2024-08-29T11:26:53.059Z - [Auth Server] [Auth Server] 2024/08/29 14:26:53 [31;1m/home/svl/Documents/projects/hostings/image_hosting/service/auth_server/controllers/database.go:58 [35;1mERROR: relation "users" does not exist (SQLSTATE 42P01)
+[0m[33m[0.641ms] [34;1m[rows:0][0m SELECT * FROM "users" WHERE email = 'savely1@gmail.com' ORDER BY "users"."id" LIMIT 1
+2024-08-29T12:05:23.868Z - [Auth Server] [Auth Server] 2024/08/29 15:05:23 [31;1m/home/svl/Documents/projects/hostings/image_hosting/service/auth_server/controllers/database.go:58 [35;1mfailed to connect to `user=imagehosting_users_admin database=imagehosting_users`: 127.0.0.1:4432 (localhost): dial error: dial tcp 127.0.0.1:4432: connect: connection refused
+[0m[33m[0.466ms] [34;1m[rows:0][0m SELECT * FROM "users" WHERE email = 'savely@gmail.com' ORDER BY "users"."id" LIMIT 1
+2024-08-29T12:05:24.523Z - [Auth Server] [Auth Server] 2024/08/29 15:05:24 [31;1m/home/svl/Documents/projects/hostings/image_hosting/service/auth_server/controllers/database.go:58 [35;1mfailed to connect to `user=imagehosting_users_admin database=imagehosting_users`: 127.0.0.1:4432 (localhost): dial error: dial tcp 127.0.0.1:4432: connect: connection refused
+[0m[33m[0.180ms] [34;1m[rows:0][0m SELECT * FROM "users" WHERE email = 'savely@gmail.com' ORDER BY "users"."id" LIMIT 1
+2024-08-29T13:26:17.750Z - [Docker] [Docker ERROR] imagehosting_postgres_users is up-to-date
+2024-08-29T13:26:17.994Z - [Docker] [Docker ERROR] imagehosting_postgres_galery is up-to-date
+2024-08-29T13:26:18.033Z - [Docker] Docker exited with code 0 and signal null
+2024-08-29T13:26:52.769Z - [Docker] [Docker ERROR] Creating network "users_default" with the default driver
+2024-08-29T13:26:52.824Z - [Docker] [Docker ERROR] Creating imagehosting_postgres_users ...
+2024-08-29T13:26:52.937Z - [Auth Server] [Auth Server] 2024/08/29 16:26:52 [35m/home/svl/Documents/projects/hostings/image_hosting/service/auth_server/controllers/database.go:20
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=imagehosting_users_admin database=imagehosting_users`: 127.0.0.1:4432 (localhost): dial error: dial tcp 127.0.0.1:4432: connect: connection refused
+2024-08-29T13:26:52.938Z - [Auth Server] [Auth Server ERROR] 2024/08/29 16:26:52 Error connecting to database: failed to connect to `user=imagehosting_users_admin database=imagehosting_users`: 127.0.0.1:4432 (localhost): dial error: dial tcp 127.0.0.1:4432: connect: connection refused
+2024-08-29T13:26:52.941Z - [Auth Server] [Auth Server ERROR] exit status 1
+2024-08-29T13:26:52.953Z - [Auth Server] Auth Server exited with code 1 and signal null
+2024-08-29T13:26:53.363Z - [Docker] [Docker ERROR] Creating imagehosting_postgres_users ... done
+2024-08-29T13:26:53.586Z - [Docker] [Docker ERROR] Creating network "galery_default" with the default driver
+2024-08-29T13:26:53.702Z - [Docker] [Docker ERROR] Creating imagehosting_postgres_galery ...
+2024-08-29T13:26:54.196Z - [Docker] [Docker ERROR] Creating imagehosting_postgres_galery ... done
+2024-08-29T13:26:54.238Z - [Docker] Docker exited with code 0 and signal null
+2024-08-29T13:27:47.342Z - [Docker] Docker encountered an error: spawn sudo node ENOENT
+2024-08-29T13:27:57.481Z - [Docker] [Docker ERROR] imagehosting_postgres_users is up-to-date
+2024-08-29T13:27:57.725Z - [Docker] [Docker ERROR] imagehosting_postgres_galery is up-to-date
+2024-08-29T13:27:57.760Z - [Docker] Docker exited with code 0 and signal null
+2024-08-29T13:28:53.273Z - [Docker] Docker encountered an error: spawn node ENOENT
+2024-08-29T13:29:20.390Z - [Docker] Docker encountered an error: spawn node ENOENT
+2024-08-29T13:35:50.173Z - [Docker] [Docker ERROR] imagehosting_postgres_users is up-to-date
+2024-08-29T13:35:50.414Z - [Docker] [Docker ERROR] imagehosting_postgres_galery is up-to-date
+2024-08-29T13:35:50.449Z - [Docker] Docker exited with code 0 and signal null
+2024-08-29T13:35:55.680Z - [Docker] [Docker ERROR] imagehosting_postgres_users is up-to-date
+2024-08-29T13:35:55.913Z - [Docker] [Docker ERROR] imagehosting_postgres_galery is up-to-date
+2024-08-29T13:35:55.949Z - [Docker] Docker exited with code 0 and signal null
+2024-08-29T13:36:20.147Z - [Docker] [Docker ERROR] Creating network "users_default" with the default driver
+2024-08-29T13:36:20.207Z - [Docker] [Docker ERROR] Creating imagehosting_postgres_users ...
+2024-08-29T13:36:20.722Z - [Docker] [Docker ERROR] Creating imagehosting_postgres_users ... done
+2024-08-29T13:36:20.948Z - [Docker] [Docker ERROR] Creating network "galery_default" with the default driver
+2024-08-29T13:36:21.001Z - [Docker] [Docker ERROR] Creating imagehosting_postgres_galery ...
+2024-08-29T13:36:21.436Z - [Docker] [Docker ERROR] Creating imagehosting_postgres_galery ... done
+2024-08-29T13:36:21.475Z - [Docker] Docker exited with code 0 and signal null
+2024-08-29T13:36:51.735Z - [Docker] [Docker ERROR] Creating network "users_default" with the default driver
+2024-08-29T13:36:51.790Z - [Docker] [Docker ERROR] Creating imagehosting_postgres_users ...
+2024-08-29T13:36:52.288Z - [Docker] [Docker ERROR] Creating imagehosting_postgres_users ... done
+2024-08-29T13:36:52.515Z - [Docker] [Docker ERROR] Creating network "galery_default" with the default driver
+2024-08-29T13:36:52.569Z - [Docker] [Docker ERROR] Creating imagehosting_postgres_galery ...
+2024-08-29T13:36:52.984Z - [Docker] [Docker ERROR] Creating imagehosting_postgres_galery ... done
+2024-08-29T13:36:53.025Z - [Docker] Docker exited with code 0 and signal null
+2024-08-29T13:38:09.748Z - [Docker] [Docker ERROR] Creating network "users_default" with the default driver
+2024-08-29T13:38:09.805Z - [Docker] [Docker ERROR] Creating imagehosting_postgres_users ...
+2024-08-29T13:38:10.335Z - [Docker] [Docker ERROR] Creating imagehosting_postgres_users ... done
+2024-08-29T13:38:10.563Z - [Docker] [Docker ERROR] Creating network "galery_default" with the default driver
+2024-08-29T13:38:10.620Z - [Docker] [Docker ERROR] Creating imagehosting_postgres_galery ...
+2024-08-29T13:38:11.078Z - [Docker] [Docker ERROR] Creating imagehosting_postgres_galery ... done
+2024-08-29T13:38:11.116Z - [Docker] Docker exited with code 0 and signal null
+2024-08-29T13:38:32.486Z - [Docker] [Docker ERROR] Creating network "users_default" with the default driver
+2024-08-29T13:38:32.543Z - [Docker] [Docker ERROR] Creating imagehosting_postgres_users ...
+2024-08-29T13:38:32.997Z - [Docker] [Docker ERROR] Creating imagehosting_postgres_users ... done
+2024-08-29T13:38:33.224Z - [Docker] [Docker ERROR] Creating network "galery_default" with the default driver
+2024-08-29T13:38:33.277Z - [Docker] [Docker ERROR] Creating imagehosting_postgres_galery ...
+2024-08-29T13:38:33.661Z - [Docker] [Docker ERROR] Creating imagehosting_postgres_galery ... done
+2024-08-29T13:38:33.699Z - [Docker] Docker exited with code 0 and signal null
+2024-08-29T13:42:19.898Z - [Docker Galery Database] [Docker Galery Database ERROR] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 700, in urlopen
+2024-08-29T13:42:19.899Z - [Docker Galery Database] [Docker Galery Database ERROR] httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 395, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.10/http/client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/docker/transport/unixconn.py", line 30, in connect
+    sock.connect(self.unix_socket)
+PermissionError: [Errno 13] Permission denied
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 756, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3/dist-packages/six.py", line 718, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 700, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 395, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.10/http/client.py", line 1283, in request
+2024-08-29T13:42:19.899Z - [Docker Galery Database] [Docker Galery Database ERROR] self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+2024-08-29T13:42:19.899Z - [Docker Galery Database] [Docker Galery Database ERROR] self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/docker/transport/unixconn.py", line 30, in connect
+2024-08-29T13:42:19.899Z - [Docker Galery Database] [Docker Galery Database ERROR] sock.connect(self.unix_socket)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', PermissionError(13, 'Permission denied'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 214, in _retrieve_server_version
+    return self.version(api_version=False)["ApiVersion"]
+  File "/usr/lib/python3/dist-packages/docker/api/daemon.py", line 181, in version
+    return self._result(self._get(url), json=True)
+  File "/usr/lib/python3/dist-packages/docker/utils/decorators.py", line 46, in inner
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 237, in _get
+    return self.get(url, **self._set_request_timeout(kwargs))
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 557, in get
+2024-08-29T13:42:19.900Z - [Docker Galery Database] [Docker Galery Database ERROR] return self.request('GET', url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 544, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 657, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', PermissionError(13, 'Permission denied'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/docker-compose", line 33, in <module>
+2024-08-29T13:42:19.900Z - [Docker Galery Database] [Docker Galery Database ERROR] sys.exit(load_entry_point('docker-compose==1.29.2', 'console_scripts', 'docker-compose')())
+  File "/usr/lib/python3/dist-packages/compose/cli/main.py", line 81, in main
+    command_func()
+  File "/usr/lib/python3/dist-packages/compose/cli/main.py", line 200, in perform_command
+    project = project_from_options('.', options)
+  File "/usr/lib/python3/dist-packages/compose/cli/command.py", line 60, in project_from_options
+    return get_project(
+  File "/usr/lib/python3/dist-packages/compose/cli/command.py", line 152, in get_project
+    client = get_client(
+  File "/usr/lib/python3/dist-packages/compose/cli/docker_client.py", line 41, in get_client
+    client = docker_client(
+  File "/usr/lib/python3/dist-packages/compose/cli/docker_client.py", line 170, in docker_client
+2024-08-29T13:42:19.900Z - [Docker Galery Database] [Docker Galery Database ERROR] client = APIClient(use_ssh_client=not use_paramiko_ssh, **kwargs)
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 197, in __init__
+    self._version = self._retrieve_server_version()
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 221, in _retrieve_server_version
+    raise DockerException(
+docker.errors.DockerException: Error while fetching server API version: ('Connection aborted.', PermissionError(13, 'Permission denied'))
+2024-08-29T13:42:19.905Z - [Docker User Database] [Docker User Database ERROR] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 700, in urlopen
+2024-08-29T13:42:19.905Z - [Docker User Database] [Docker User Database ERROR] httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 395, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.10/http/client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+2024-08-29T13:42:19.905Z - [Docker User Database] [Docker User Database ERROR] self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/docker/transport/unixconn.py", line 30, in connect
+    sock.connect(self.unix_socket)
+PermissionError: [Errno 13] Permission denied
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 439, in send
+2024-08-29T13:42:19.905Z - [Docker User Database] [Docker User Database ERROR] resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 756, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3/dist-packages/six.py", line 718, in reraise
+2024-08-29T13:42:19.906Z - [Docker User Database] [Docker User Database ERROR] raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 700, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 395, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.10/http/client.py", line 1283, in request
+2024-08-29T13:42:19.906Z - [Docker User Database] [Docker User Database ERROR] self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+2024-08-29T13:42:19.906Z - [Docker User Database] [Docker User Database ERROR] self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+2024-08-29T13:42:19.906Z - [Docker User Database] [Docker User Database ERROR] self.connect()
+  File "/usr/lib/python3/dist-packages/docker/transport/unixconn.py", line 30, in connect
+    sock.connect(self.unix_socket)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', PermissionError(13, 'Permission denied'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 214, in _retrieve_server_version
+2024-08-29T13:42:19.906Z - [Docker User Database] [Docker User Database ERROR] return self.version(api_version=False)["ApiVersion"]
+  File "/usr/lib/python3/dist-packages/docker/api/daemon.py", line 181, in version
+    return self._result(self._get(url), json=True)
+  File "/usr/lib/python3/dist-packages/docker/utils/decorators.py", line 46, in inner
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 237, in _get
+2024-08-29T13:42:19.906Z - [Docker User Database] [Docker User Database ERROR] return self.get(url, **self._set_request_timeout(kwargs))
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 557, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 544, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 657, in send
+2024-08-29T13:42:19.907Z - [Docker User Database] [Docker User Database ERROR] r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', PermissionError(13, 'Permission denied'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/docker-compose", line 33, in <module>
+    sys.exit(load_entry_point('docker-compose==1.29.2', 'console_scripts', 'docker-compose')())
+  File "/usr/lib/python3/dist-packages/compose/cli/main.py", line 81, in main
+    command_func()
+2024-08-29T13:42:19.907Z - [Docker User Database] [Docker User Database ERROR] File "/usr/lib/python3/dist-packages/compose/cli/main.py", line 200, in perform_command
+    project = project_from_options('.', options)
+  File "/usr/lib/python3/dist-packages/compose/cli/command.py", line 60, in project_from_options
+    return get_project(
+  File "/usr/lib/python3/dist-packages/compose/cli/command.py", line 152, in get_project
+2024-08-29T13:42:19.907Z - [Docker User Database] [Docker User Database ERROR] client = get_client(
+  File "/usr/lib/python3/dist-packages/compose/cli/docker_client.py", line 41, in get_client
+2024-08-29T13:42:19.907Z - [Docker User Database] [Docker User Database ERROR] client = docker_client(
+  File "/usr/lib/python3/dist-packages/compose/cli/docker_client.py", line 170, in docker_client
+    client = APIClient(use_ssh_client=not use_paramiko_ssh, **kwargs)
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 197, in __init__
+    self._version = self._retrieve_server_version()
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 221, in _retrieve_server_version
+    raise DockerException(
+docker.errors.DockerException: Error while fetching server API version: ('Connection aborted.', PermissionError(13, 'Permission denied'))
+2024-08-29T13:42:19.949Z - [Docker Galery Database] Docker Galery Database exited with code 1 and signal null
+2024-08-29T13:42:19.960Z - [Docker User Database] Docker User Database exited with code 1 and signal null
+2024-08-29T13:42:20.152Z - [Auth Server] [Auth Server] 2024/08/29 16:42:20 [35m/home/svl/Documents/projects/hostings/image_hosting/service/auth_server/controllers/database.go:20
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=imagehosting_users_admin database=imagehosting_users`: 127.0.0.1:4432 (localhost): dial error: dial tcp 127.0.0.1:4432: connect: connection refused
+2024-08-29T13:42:20.152Z - [Auth Server] [Auth Server ERROR] 2024/08/29 16:42:20 Error connecting to database: failed to connect to `user=imagehosting_users_admin database=imagehosting_users`: 127.0.0.1:4432 (localhost): dial error: dial tcp 127.0.0.1:4432: connect: connection refused
+2024-08-29T13:42:20.152Z - [Auth Server] [Auth Server ERROR] exit status 1
+2024-08-29T13:42:20.158Z - [Auth Server] Auth Server exited with code 1 and signal null
+2024-08-29T13:42:25.150Z - [Docker User Database] [Docker User Database ERROR] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 700, in urlopen
+2024-08-29T13:42:25.150Z - [Docker User Database] [Docker User Database ERROR] httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 395, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.10/http/client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+2024-08-29T13:42:25.150Z - [Docker Galery Database] [Docker Galery Database ERROR] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 700, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 395, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.10/http/client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+2024-08-29T13:42:25.150Z - [Docker User Database] [Docker User Database ERROR] self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/docker/transport/unixconn.py", line 30, in connect
+    sock.connect(self.unix_socket)
+PermissionError: [Errno 13] Permission denied
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 439, in send
+2024-08-29T13:42:25.151Z - [Docker Galery Database] [Docker Galery Database ERROR] self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/docker/transport/unixconn.py", line 30, in connect
+    sock.connect(self.unix_socket)
+PermissionError: [Errno 13] Permission denied
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 439, in send
+2024-08-29T13:42:25.151Z - [Docker User Database] [Docker User Database ERROR] resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 756, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3/dist-packages/six.py", line 718, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 700, in urlopen
+2024-08-29T13:42:25.151Z - [Docker Galery Database] [Docker Galery Database ERROR] resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 756, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3/dist-packages/six.py", line 718, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 700, in urlopen
+2024-08-29T13:42:25.151Z - [Docker User Database] [Docker User Database ERROR] httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 395, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.10/http/client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1329, in _send_request
+2024-08-29T13:42:25.151Z - [Docker Galery Database] [Docker Galery Database ERROR] httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 395, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.10/http/client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1329, in _send_request
+2024-08-29T13:42:25.151Z - [Docker User Database] [Docker User Database ERROR] self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+2024-08-29T13:42:25.151Z - [Docker Galery Database] [Docker Galery Database ERROR] self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+2024-08-29T13:42:25.151Z - [Docker User Database] [Docker User Database ERROR] self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/docker/transport/unixconn.py", line 30, in connect
+    sock.connect(self.unix_socket)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', PermissionError(13, 'Permission denied'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 214, in _retrieve_server_version
+    return self.version(api_version=False)["ApiVersion"]
+  File "/usr/lib/python3/dist-packages/docker/api/daemon.py", line 181, in version
+    return self._result(self._get(url), json=True)
+  File "/usr/lib/python3/dist-packages/docker/utils/decorators.py", line 46, in inner
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 237, in _get
+2024-08-29T13:42:25.151Z - [Docker Galery Database] [Docker Galery Database ERROR] self.connect()
+  File "/usr/lib/python3/dist-packages/docker/transport/unixconn.py", line 30, in connect
+    sock.connect(self.unix_socket)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', PermissionError(13, 'Permission denied'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 214, in _retrieve_server_version
+    return self.version(api_version=False)["ApiVersion"]
+  File "/usr/lib/python3/dist-packages/docker/api/daemon.py", line 181, in version
+    return self._result(self._get(url), json=True)
+  File "/usr/lib/python3/dist-packages/docker/utils/decorators.py", line 46, in inner
+2024-08-29T13:42:25.152Z - [Docker User Database] [Docker User Database ERROR] return self.get(url, **self._set_request_timeout(kwargs))
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 557, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 544, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 657, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 498, in send
+2024-08-29T13:42:25.152Z - [Docker Galery Database] [Docker Galery Database ERROR] return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 237, in _get
+    return self.get(url, **self._set_request_timeout(kwargs))
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 557, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 544, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 657, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 498, in send
+2024-08-29T13:42:25.152Z - [Docker User Database] [Docker User Database ERROR] raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', PermissionError(13, 'Permission denied'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/docker-compose", line 33, in <module>
+    sys.exit(load_entry_point('docker-compose==1.29.2', 'console_scripts', 'docker-compose')())
+  File "/usr/lib/python3/dist-packages/compose/cli/main.py", line 81, in main
+    command_func()
+  File "/usr/lib/python3/dist-packages/compose/cli/main.py", line 200, in perform_command
+    project = project_from_options('.', options)
+  File "/usr/lib/python3/dist-packages/compose/cli/command.py", line 60, in project_from_options
+    return get_project(
+  File "/usr/lib/python3/dist-packages/compose/cli/command.py", line 152, in get_project
+    client = get_client(
+  File "/usr/lib/python3/dist-packages/compose/cli/docker_client.py", line 41, in get_client
+    client = docker_client(
+  File "/usr/lib/python3/dist-packages/compose/cli/docker_client.py", line 170, in docker_client
+    client = APIClient(use_ssh_client=not use_paramiko_ssh, **kwargs)
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 197, in __init__
+    self._version = self._retrieve_server_version()
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 221, in _retrieve_server_version
+    raise DockerException(
+docker.errors.DockerException: Error while fetching server API version: ('Connection aborted.', PermissionError(13, 'Permission denied'))
+2024-08-29T13:42:25.152Z - [Docker Galery Database] [Docker Galery Database ERROR] raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', PermissionError(13, 'Permission denied'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/docker-compose", line 33, in <module>
+    sys.exit(load_entry_point('docker-compose==1.29.2', 'console_scripts', 'docker-compose')())
+  File "/usr/lib/python3/dist-packages/compose/cli/main.py", line 81, in main
+    command_func()
+  File "/usr/lib/python3/dist-packages/compose/cli/main.py", line 200, in perform_command
+    project = project_from_options('.', options)
+  File "/usr/lib/python3/dist-packages/compose/cli/command.py", line 60, in project_from_options
+    return get_project(
+  File "/usr/lib/python3/dist-packages/compose/cli/command.py", line 152, in get_project
+    client = get_client(
+  File "/usr/lib/python3/dist-packages/compose/cli/docker_client.py", line 41, in get_client
+    client = docker_client(
+  File "/usr/lib/python3/dist-packages/compose/cli/docker_client.py", line 170, in docker_client
+    client = APIClient(use_ssh_client=not use_paramiko_ssh, **kwargs)
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 197, in __init__
+    self._version = self._retrieve_server_version()
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 221, in _retrieve_server_version
+    raise DockerException(
+docker.errors.DockerException: Error while fetching server API version: ('Connection aborted.', PermissionError(13, 'Permission denied'))
+2024-08-29T13:42:25.203Z - [Docker Galery Database] Docker Galery Database exited with code 1 and signal null
+2024-08-29T13:42:25.203Z - [Docker User Database] Docker User Database exited with code 1 and signal null
+2024-08-29T13:42:25.545Z - [Auth Server] [Auth Server] 2024/08/29 16:42:25 [35m/home/svl/Documents/projects/hostings/image_hosting/service/auth_server/controllers/database.go:20
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=imagehosting_users_admin database=imagehosting_users`: 127.0.0.1:4432 (localhost): dial error: dial tcp 127.0.0.1:4432: connect: connection refused
+2024-08-29T13:42:25.545Z - [Auth Server] [Auth Server ERROR] 2024/08/29 16:42:25 Error connecting to database: failed to connect to `user=imagehosting_users_admin database=imagehosting_users`: 127.0.0.1:4432 (localhost): dial error: dial tcp 127.0.0.1:4432: connect: connection refused
+2024-08-29T13:42:25.546Z - [Auth Server] [Auth Server ERROR] exit status 1
+2024-08-29T13:42:25.551Z - [Auth Server] Auth Server exited with code 1 and signal null
+2024-08-29T13:46:20.453Z - [Docker Galery Database] [Docker Galery Database ERROR] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 700, in urlopen
+2024-08-29T13:46:20.454Z - [Docker Galery Database] [Docker Galery Database ERROR] httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 395, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.10/http/client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/docker/transport/unixconn.py", line 30, in connect
+    sock.connect(self.unix_socket)
+PermissionError: [Errno 13] Permission denied
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 756, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3/dist-packages/six.py", line 718, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 700, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 395, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.10/http/client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1329, in _send_request
+2024-08-29T13:46:20.454Z - [Docker Galery Database] [Docker Galery Database ERROR] self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+2024-08-29T13:46:20.455Z - [Docker Galery Database] [Docker Galery Database ERROR] self.connect()
+  File "/usr/lib/python3/dist-packages/docker/transport/unixconn.py", line 30, in connect
+    sock.connect(self.unix_socket)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', PermissionError(13, 'Permission denied'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 214, in _retrieve_server_version
+    return self.version(api_version=False)["ApiVersion"]
+  File "/usr/lib/python3/dist-packages/docker/api/daemon.py", line 181, in version
+    return self._result(self._get(url), json=True)
+  File "/usr/lib/python3/dist-packages/docker/utils/decorators.py", line 46, in inner
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 237, in _get
+    return self.get(url, **self._set_request_timeout(kwargs))
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 557, in get
+2024-08-29T13:46:20.455Z - [Docker Galery Database] [Docker Galery Database ERROR] return self.request('GET', url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 544, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 657, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', PermissionError(13, 'Permission denied'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/docker-compose", line 33, in <module>
+2024-08-29T13:46:20.455Z - [Docker Galery Database] [Docker Galery Database ERROR] sys.exit(load_entry_point('docker-compose==1.29.2', 'console_scripts', 'docker-compose')())
+  File "/usr/lib/python3/dist-packages/compose/cli/main.py", line 81, in main
+    command_func()
+  File "/usr/lib/python3/dist-packages/compose/cli/main.py", line 200, in perform_command
+    project = project_from_options('.', options)
+  File "/usr/lib/python3/dist-packages/compose/cli/command.py", line 60, in project_from_options
+    return get_project(
+  File "/usr/lib/python3/dist-packages/compose/cli/command.py", line 152, in get_project
+    client = get_client(
+  File "/usr/lib/python3/dist-packages/compose/cli/docker_client.py", line 41, in get_client
+    client = docker_client(
+  File "/usr/lib/python3/dist-packages/compose/cli/docker_client.py", line 170, in docker_client
+    client = APIClient(use_ssh_client=not use_paramiko_ssh, **kwargs)
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 197, in __init__
+    self._version = self._retrieve_server_version()
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 221, in _retrieve_server_version
+2024-08-29T13:46:20.455Z - [Docker Galery Database] [Docker Galery Database ERROR] raise DockerException(
+docker.errors.DockerException: Error while fetching server API version: ('Connection aborted.', PermissionError(13, 'Permission denied'))
+2024-08-29T13:46:20.465Z - [Docker User Database] [Docker User Database ERROR] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 700, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 395, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.10/http/client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+2024-08-29T13:46:20.465Z - [Docker User Database] [Docker User Database ERROR] self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/docker/transport/unixconn.py", line 30, in connect
+    sock.connect(self.unix_socket)
+PermissionError: [Errno 13] Permission denied
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 756, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 532, in increment
+2024-08-29T13:46:20.465Z - [Docker User Database] [Docker User Database ERROR] raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3/dist-packages/six.py", line 718, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 700, in urlopen
+2024-08-29T13:46:20.465Z - [Docker User Database] [Docker User Database ERROR] httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 395, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.10/http/client.py", line 1283, in request
+2024-08-29T13:46:20.466Z - [Docker User Database] [Docker User Database ERROR] self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1329, in _send_request
+2024-08-29T13:46:20.466Z - [Docker User Database] [Docker User Database ERROR] self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+2024-08-29T13:46:20.466Z - [Docker User Database] [Docker User Database ERROR] self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+2024-08-29T13:46:20.466Z - [Docker User Database] [Docker User Database ERROR] self.connect()
+  File "/usr/lib/python3/dist-packages/docker/transport/unixconn.py", line 30, in connect
+    sock.connect(self.unix_socket)
+2024-08-29T13:46:20.466Z - [Docker User Database] [Docker User Database ERROR] urllib3.exceptions.ProtocolError: ('Connection aborted.', PermissionError(13, 'Permission denied'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 214, in _retrieve_server_version
+    return self.version(api_version=False)["ApiVersion"]
+  File "/usr/lib/python3/dist-packages/docker/api/daemon.py", line 181, in version
+    return self._result(self._get(url), json=True)
+  File "/usr/lib/python3/dist-packages/docker/utils/decorators.py", line 46, in inner
+2024-08-29T13:46:20.466Z - [Docker User Database] [Docker User Database ERROR] return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 237, in _get
+    return self.get(url, **self._set_request_timeout(kwargs))
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 557, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 544, in request
+2024-08-29T13:46:20.466Z - [Docker User Database] [Docker User Database ERROR] resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 657, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 498, in send
+2024-08-29T13:46:20.466Z - [Docker User Database] [Docker User Database ERROR] raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', PermissionError(13, 'Permission denied'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/docker-compose", line 33, in <module>
+    sys.exit(load_entry_point('docker-compose==1.29.2', 'console_scripts', 'docker-compose')())
+  File "/usr/lib/python3/dist-packages/compose/cli/main.py", line 81, in main
+    command_func()
+  File "/usr/lib/python3/dist-packages/compose/cli/main.py", line 200, in perform_command
+2024-08-29T13:46:20.467Z - [Docker User Database] [Docker User Database ERROR] project = project_from_options('.', options)
+  File "/usr/lib/python3/dist-packages/compose/cli/command.py", line 60, in project_from_options
+    return get_project(
+  File "/usr/lib/python3/dist-packages/compose/cli/command.py", line 152, in get_project
+    client = get_client(
+  File "/usr/lib/python3/dist-packages/compose/cli/docker_client.py", line 41, in get_client
+    client = docker_client(
+  File "/usr/lib/python3/dist-packages/compose/cli/docker_client.py", line 170, in docker_client
+    client = APIClient(use_ssh_client=not use_paramiko_ssh, **kwargs)
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 197, in __init__
+2024-08-29T13:46:20.467Z - [Docker User Database] [Docker User Database ERROR] self._version = self._retrieve_server_version()
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 221, in _retrieve_server_version
+    raise DockerException(
+docker.errors.DockerException: Error while fetching server API version: ('Connection aborted.', PermissionError(13, 'Permission denied'))
+2024-08-29T13:46:20.504Z - [Docker Galery Database] Docker Galery Database exited with code 1 and signal null
+2024-08-29T13:46:20.505Z - [Docker User Database] Docker User Database exited with code 1 and signal null
+2024-08-29T13:46:20.623Z - [Auth Server] [Auth Server] 2024/08/29 16:46:20 [35m/home/svl/Documents/projects/hostings/image_hosting/service/auth_server/controllers/database.go:20
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=imagehosting_users_admin database=imagehosting_users`: 127.0.0.1:4432 (localhost): dial error: dial tcp 127.0.0.1:4432: connect: connection refused
+2024-08-29T13:46:20.624Z - [Auth Server] [Auth Server ERROR] 2024/08/29 16:46:20 Error connecting to database: failed to connect to `user=imagehosting_users_admin database=imagehosting_users`: 127.0.0.1:4432 (localhost): dial error: dial tcp 127.0.0.1:4432: connect: connection refused
+2024-08-29T13:46:20.624Z - [Auth Server] [Auth Server ERROR] exit status 1
+2024-08-29T13:46:20.629Z - [Auth Server] Auth Server exited with code 1 and signal null
+2024-08-29T13:47:11.330Z - [Docker Galery Database] [Docker Galery Database ERROR] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 700, in urlopen
+2024-08-29T13:47:11.331Z - [Docker Galery Database] [Docker Galery Database ERROR] httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 395, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.10/http/client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/docker/transport/unixconn.py", line 30, in connect
+    sock.connect(self.unix_socket)
+PermissionError: [Errno 13] Permission denied
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 756, in urlopen
+    retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3/dist-packages/six.py", line 718, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 700, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 395, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.10/http/client.py", line 1283, in request
+2024-08-29T13:47:11.331Z - [Docker Galery Database] [Docker Galery Database ERROR] self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+2024-08-29T13:47:11.331Z - [Docker Galery Database] [Docker Galery Database ERROR] self.connect()
+  File "/usr/lib/python3/dist-packages/docker/transport/unixconn.py", line 30, in connect
+    sock.connect(self.unix_socket)
+urllib3.exceptions.ProtocolError: ('Connection aborted.', PermissionError(13, 'Permission denied'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 214, in _retrieve_server_version
+    return self.version(api_version=False)["ApiVersion"]
+  File "/usr/lib/python3/dist-packages/docker/api/daemon.py", line 181, in version
+    return self._result(self._get(url), json=True)
+  File "/usr/lib/python3/dist-packages/docker/utils/decorators.py", line 46, in inner
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 237, in _get
+    return self.get(url, **self._set_request_timeout(kwargs))
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 557, in get
+    return self.request('GET', url, **kwargs)
+2024-08-29T13:47:11.332Z - [Docker Galery Database] [Docker Galery Database ERROR] File "/usr/lib/python3/dist-packages/requests/sessions.py", line 544, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 657, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', PermissionError(13, 'Permission denied'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/docker-compose", line 33, in <module>
+    sys.exit(load_entry_point('docker-compose==1.29.2', 'console_scripts', 'docker-compose')())
+  File "/usr/lib/python3/dist-packages/compose/cli/main.py", line 81, in main
+    command_func()
+  File "/usr/lib/python3/dist-packages/compose/cli/main.py", line 200, in perform_command
+    project = project_from_options('.', options)
+  File "/usr/lib/python3/dist-packages/compose/cli/command.py", line 60, in project_from_options
+    return get_project(
+  File "/usr/lib/python3/dist-packages/compose/cli/command.py", line 152, in get_project
+    client = get_client(
+  File "/usr/lib/python3/dist-packages/compose/cli/docker_client.py", line 41, in get_client
+2024-08-29T13:47:11.332Z - [Docker Galery Database] [Docker Galery Database ERROR] client = docker_client(
+  File "/usr/lib/python3/dist-packages/compose/cli/docker_client.py", line 170, in docker_client
+    client = APIClient(use_ssh_client=not use_paramiko_ssh, **kwargs)
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 197, in __init__
+    self._version = self._retrieve_server_version()
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 221, in _retrieve_server_version
+    raise DockerException(
+docker.errors.DockerException: Error while fetching server API version: ('Connection aborted.', PermissionError(13, 'Permission denied'))
+2024-08-29T13:47:11.359Z - [Docker User Database] [Docker User Database ERROR] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 700, in urlopen
+    httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 395, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.10/http/client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1329, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+2024-08-29T13:47:11.359Z - [Docker User Database] [Docker User Database ERROR] self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/docker/transport/unixconn.py", line 30, in connect
+    sock.connect(self.unix_socket)
+PermissionError: [Errno 13] Permission denied
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 439, in send
+    resp = conn.urlopen(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 756, in urlopen
+2024-08-29T13:47:11.360Z - [Docker User Database] [Docker User Database ERROR] retries = retries.increment(
+  File "/usr/lib/python3/dist-packages/urllib3/util/retry.py", line 532, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3/dist-packages/six.py", line 718, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 700, in urlopen
+2024-08-29T13:47:11.360Z - [Docker User Database] [Docker User Database ERROR] httplib_response = self._make_request(
+  File "/usr/lib/python3/dist-packages/urllib3/connectionpool.py", line 395, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib/python3.10/http/client.py", line 1283, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1329, in _send_request
+2024-08-29T13:47:11.360Z - [Docker User Database] [Docker User Database ERROR] self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1278, in endheaders
+2024-08-29T13:47:11.360Z - [Docker User Database] [Docker User Database ERROR] self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1038, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 976, in send
+    self.connect()
+  File "/usr/lib/python3/dist-packages/docker/transport/unixconn.py", line 30, in connect
+    sock.connect(self.unix_socket)
+2024-08-29T13:47:11.360Z - [Docker User Database] [Docker User Database ERROR] urllib3.exceptions.ProtocolError: ('Connection aborted.', PermissionError(13, 'Permission denied'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 214, in _retrieve_server_version
+    return self.version(api_version=False)["ApiVersion"]
+  File "/usr/lib/python3/dist-packages/docker/api/daemon.py", line 181, in version
+    return self._result(self._get(url), json=True)
+  File "/usr/lib/python3/dist-packages/docker/utils/decorators.py", line 46, in inner
+    return f(self, *args, **kwargs)
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 237, in _get
+    return self.get(url, **self._set_request_timeout(kwargs))
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 557, in get
+    return self.request('GET', url, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 544, in request
+2024-08-29T13:47:11.361Z - [Docker User Database] [Docker User Database ERROR] resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3/dist-packages/requests/sessions.py", line 657, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3/dist-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', PermissionError(13, 'Permission denied'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/bin/docker-compose", line 33, in <module>
+    sys.exit(load_entry_point('docker-compose==1.29.2', 'console_scripts', 'docker-compose')())
+  File "/usr/lib/python3/dist-packages/compose/cli/main.py", line 81, in main
+2024-08-29T13:47:11.361Z - [Docker User Database] [Docker User Database ERROR] command_func()
+  File "/usr/lib/python3/dist-packages/compose/cli/main.py", line 200, in perform_command
+    project = project_from_options('.', options)
+  File "/usr/lib/python3/dist-packages/compose/cli/command.py", line 60, in project_from_options
+    return get_project(
+  File "/usr/lib/python3/dist-packages/compose/cli/command.py", line 152, in get_project
+    client = get_client(
+  File "/usr/lib/python3/dist-packages/compose/cli/docker_client.py", line 41, in get_client
+    client = docker_client(
+  File "/usr/lib/python3/dist-packages/compose/cli/docker_client.py", line 170, in docker_client
+2024-08-29T13:47:11.361Z - [Docker User Database] [Docker User Database ERROR] client = APIClient(use_ssh_client=not use_paramiko_ssh, **kwargs)
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 197, in __init__
+    self._version = self._retrieve_server_version()
+  File "/usr/lib/python3/dist-packages/docker/api/client.py", line 221, in _retrieve_server_version
+    raise DockerException(
+docker.errors.DockerException: Error while fetching server API version: ('Connection aborted.', PermissionError(13, 'Permission denied'))
+2024-08-29T13:47:11.384Z - [Docker Galery Database] Docker Galery Database exited with code 1 and signal null
+2024-08-29T13:47:11.405Z - [Docker User Database] Docker User Database exited with code 1 and signal null
+2024-08-29T13:47:11.521Z - [Auth Server] [Auth Server] 2024/08/29 16:47:11 [35m/home/svl/Documents/projects/hostings/image_hosting/service/auth_server/controllers/database.go:20
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=imagehosting_users_admin database=imagehosting_users`: 127.0.0.1:4432 (localhost): dial error: dial tcp 127.0.0.1:4432: connect: connection refused
+2024-08-29T13:47:11.521Z - [Auth Server] [Auth Server ERROR] 2024/08/29 16:47:11 Error connecting to database: failed to connect to `user=imagehosting_users_admin database=imagehosting_users`: 127.0.0.1:4432 (localhost): dial error: dial tcp 127.0.0.1:4432: connect: connection refused
+2024-08-29T13:47:11.522Z - [Auth Server] [Auth Server ERROR] exit status 1
+2024-08-29T13:47:11.527Z - [Auth Server] Auth Server exited with code 1 and signal null
+2024-08-29T13:54:52.851Z - [Auth Server] [Auth Server] 2024/08/29 16:54:52 [35m/home/svl/Documents/projects/hostings/image_hosting/service/auth_server/controllers/database.go:20
+[0m[31m[error] [0mfailed to initialize database, got error failed to connect to `user=imagehosting_users_admin database=imagehosting_users`: 127.0.0.1:4432 (localhost): dial error: dial tcp 127.0.0.1:4432: connect: connection refused
+2024-08-29T13:54:52.852Z - [Auth Server] [Auth Server ERROR] 2024/08/29 16:54:52 Error connecting to database: failed to connect to `user=imagehosting_users_admin database=imagehosting_users`: 127.0.0.1:4432 (localhost): dial error: dial tcp 127.0.0.1:4432: connect: connection refused
+2024-08-29T13:54:52.852Z - [Auth Server] [Auth Server ERROR] exit status 1
+2024-08-29T13:54:52.857Z - [Auth Server] Auth Server exited with code 1 and signal null
+2024-08-29T13:58:55.118Z - [Auth Server] [Auth Server] 2024/08/29 16:58:55 [31;1m/home/svl/Documents/projects/hostings/image_hosting/service/auth_server/controllers/database.go:58 [35;1mERROR: relation "users" does not exist (SQLSTATE 42P01)
+[0m[33m[0.953ms] [34;1m[rows:0][0m SELECT * FROM "users" WHERE email = 'savely@gmail.com' ORDER BY "users"."id" LIMIT 1
+2024-08-29T13:59:45.318Z - [Auth Server] [Auth Server] 2024/08/29 16:59:45 [31;1m/home/svl/Documents/projects/hostings/image_hosting/service/auth_server/controllers/database.go:58 [35;1mERROR: relation "users" does not exist (SQLSTATE 42P01)
+[0m[33m[6.428ms] [34;1m[rows:0][0m SELECT * FROM "users" WHERE email = 'savely@gmail.com' ORDER BY "users"."id" LIMIT 1
+2024-08-29T21:25:38.311Z - [Storage Server] [Storage Server ERROR] /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/file.controller.js:23
+        throw new Error(`File or directory not found on path: ${full_path}`);
+        ^
+
+Error: File or directory not found on path: /home/svl/Documents/projects/hostings/image_hosting/service/storage/upload
+    at isFileOrDirExist (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/file.controller.js:23:15)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/config.js:5:20)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/server.js:2:46)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+
+Node.js v20.15.1
+2024-08-29T21:25:38.315Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-29T21:25:43.339Z - [Storage Server] [Storage Server ERROR] /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/file.controller.js:23
+        throw new Error(`File or directory not found on path: ${full_path}`);
+        ^
+
+Error: File or directory not found on path: /home/svl/Documents/projects/hostings/image_hosting/service/storage/upload
+    at isFileOrDirExist (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/file.controller.js:23:15)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/config.js:5:20)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/server.js:2:46)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+
+Node.js v20.15.1
+2024-08-29T21:25:43.341Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-29T21:27:11.300Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-29T21:27:16.590Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-29T21:29:25.005Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-29T21:29:30.300Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-29T21:31:34.073Z - [Storage Server] [Storage Server ERROR] /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/route.js:150
+        throw new FST_ERR_ROUTE_OPTIONS_NOT_OBJ(method, url)
+              ^
+2024-08-29T21:31:34.074Z - [Storage Server] [Storage Server ERROR] FastifyError [Error]: Options for "POST:/upload" route must be an object
+    at Object.prepareRoute (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/route.js:150:15)
+    at Object._post [as post] (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/fastify.js:271:34)
+    at uploadRoutes (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/storage.js:41:11)
+    at Plugin.exec (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/avvio/lib/plugin.js:125:28)
+    at Boot._loadPlugin (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/avvio/boot.js:432:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'FST_ERR_ROUTE_OPTIONS_NOT_OBJ',
+  statusCode: 500
+}
+
+Node.js v20.15.1
+2024-08-29T21:31:34.081Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-29T21:31:39.374Z - [Storage Server] [Storage Server ERROR] /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/route.js:150
+        throw new FST_ERR_ROUTE_OPTIONS_NOT_OBJ(method, url)
+              ^
+2024-08-29T21:31:39.376Z - [Storage Server] [Storage Server ERROR] FastifyError [Error]: Options for "POST:/upload" route must be an object
+    at Object.prepareRoute (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/route.js:150:15)
+    at Object._post [as post] (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/fastify.js:271:34)
+    at uploadRoutes (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/storage.js:41:11)
+    at Plugin.exec (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/avvio/lib/plugin.js:125:28)
+    at Boot._loadPlugin (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/avvio/boot.js:432:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'FST_ERR_ROUTE_OPTIONS_NOT_OBJ',
+  statusCode: 500
+}
+
+Node.js v20.15.1
+2024-08-29T21:31:39.382Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-29T21:57:45.383Z - [Storage Server] [Storage Server ERROR] /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/file.controller.js:23
+        throw new Error(`File or directory not found on path: ${full_path}`);
+        ^
+
+Error: File or directory not found on path: /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/server_images
+    at isFileOrDirExist (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/file.controller.js:23:15)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/config.js:7:27)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:9:52)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+
+Node.js v20.15.1
+2024-08-29T21:57:45.389Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-29T21:57:50.561Z - [Storage Server] [Storage Server ERROR] /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/file.controller.js:23
+        throw new Error(`File or directory not found on path: ${full_path}`);
+        ^
+
+Error: File or directory not found on path: /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/server_images
+    at isFileOrDirExist (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/file.controller.js:23:15)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/config.js:7:27)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:9:52)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+
+Node.js v20.15.1
+2024-08-29T21:57:50.567Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-29T21:59:42.329Z - [Storage Server] [Storage Server ERROR] ReferenceError: fs is not defined
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/storage.js:89:7)
+    at preHandlerCallback (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:138:37)
+    at validationCompleted (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:122:5)
+    at preValidationCallback (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:99:5)
+    at handler (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:76:7)
+    at handleRequest (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:24:5)
+    at runPreParsing (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/route.js:613:5)
+    at next (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/hooks.js:233:9)
+    at Object.fastifyCookieHandler (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/@fastify/cookie/plugin.js:68:7)
+    at hookIterator (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/hooks.js:405:10)
+2024-08-29T22:00:14.937Z - [Storage Server] [Storage Server ERROR] StatusCodeError: Image not found
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/storage.js:91:15)
+    at preHandlerCallback (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:138:37)
+    at validationCompleted (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:122:5)
+    at preValidationCallback (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:99:5)
+    at handler (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:76:7)
+    at handleRequest (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:24:5)
+    at runPreParsing (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/route.js:613:5)
+    at next (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/hooks.js:233:9)
+    at Object.fastifyCookieHandler (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/@fastify/cookie/plugin.js:68:7)
+    at hookIterator (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/hooks.js:405:10) {
+  statusCode: 404
+}
+2024-08-29T22:00:46.136Z - [Storage Server] [Storage Server ERROR] StatusCodeError: Image not found
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/storage.js:91:15)
+    at preHandlerCallback (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:138:37)
+    at validationCompleted (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:122:5)
+    at preValidationCallback (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:99:5)
+    at handler (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:76:7)
+    at handleRequest (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:24:5)
+    at runPreParsing (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/route.js:613:5)
+    at next (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/hooks.js:233:9)
+    at Object.fastifyCookieHandler (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/@fastify/cookie/plugin.js:68:7)
+    at hookIterator (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/hooks.js:405:10) {
+  statusCode: 404
+}
+2024-08-29T22:01:04.823Z - [Storage Server] [Storage Server ERROR] StatusCodeError: Image not found
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/storage.js:91:15)
+    at preHandlerCallback (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:138:37)
+    at validationCompleted (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:122:5)
+    at preValidationCallback (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:99:5)
+    at handler (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:76:7)
+    at handleRequest (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:24:5)
+    at runPreParsing (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/route.js:613:5)
+    at next (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/hooks.js:233:9)
+    at Object.fastifyCookieHandler (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/@fastify/cookie/plugin.js:68:7)
+    at hookIterator (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/hooks.js:405:10) {
+  statusCode: 404
+}
+2024-08-29T22:02:41.887Z - [Storage Server] [Storage Server ERROR] StatusCodeError: Image not found
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/storage.js:93:15)
+    at preHandlerCallback (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:138:37)
+    at validationCompleted (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:122:5)
+    at preValidationCallback (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:99:5)
+    at handler (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:76:7)
+    at handleRequest (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:24:5)
+    at runPreParsing (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/route.js:613:5)
+    at next (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/hooks.js:233:9)
+    at Object.fastifyCookieHandler (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/@fastify/cookie/plugin.js:68:7)
+    at hookIterator (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/hooks.js:405:10) {
+  statusCode: 404
+}
+2024-08-29T22:03:33.436Z - [Storage Server] [Storage Server ERROR] StatusCodeError: Image not found
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/storage.js:93:15)
+    at preHandlerCallback (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:138:37)
+    at validationCompleted (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:122:5)
+    at preValidationCallback (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:99:5)
+    at handler (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:76:7)
+    at handleRequest (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:24:5)
+    at runPreParsing (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/route.js:613:5)
+    at next (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/hooks.js:233:9)
+    at Object.fastifyCookieHandler (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/@fastify/cookie/plugin.js:68:7)
+    at hookIterator (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/hooks.js:405:10) {
+  statusCode: 404
+}
+2024-08-29T22:10:32.813Z - [Storage Server] [Storage Server ERROR] /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/server.js:10
+fastify.register(fastifyStatic, {
+                 ^
+
+ReferenceError: fastifyStatic is not defined
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/server.js:10:18)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
+    at node:internal/main/run_main_module:28:49
+2024-08-29T22:10:32.814Z - [Storage Server] [Storage Server ERROR] Node.js v20.15.1
+2024-08-29T22:10:32.819Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-29T22:10:37.960Z - [Storage Server] [Storage Server ERROR] /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/server.js:10
+fastify.register(fastifyStatic, {
+                 ^
+
+ReferenceError: fastifyStatic is not defined
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/server.js:10:18)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12)
+    at node:internal/main/run_main_module:28:49
+
+Node.js v20.15.1
+2024-08-29T22:10:37.964Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-29T22:10:52.520Z - [Storage Server] [Storage Server ERROR] node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module '@fastify/static'
+Require stack:
+- /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/server.js:5:23)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/server.js'
+  ]
+}
+
+Node.js v20.15.1
+2024-08-29T22:10:52.525Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-29T22:10:57.681Z - [Storage Server] [Storage Server ERROR] node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module '@fastify/static'
+Require stack:
+- /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/server.js:5:23)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/server.js'
+  ]
+}
+
+Node.js v20.15.1
+2024-08-29T22:10:57.686Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-29T22:11:35.481Z - [Storage Server] [Storage Server ERROR] node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module '@fastify/static'
+Require stack:
+- /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/server.js:5:23)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/server.js'
+  ]
+}
+
+Node.js v20.15.1
+2024-08-29T22:11:35.485Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-29T22:11:40.640Z - [Storage Server] [Storage Server ERROR] node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module '@fastify/static'
+Require stack:
+- /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/server.js:5:23)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/server.js'
+  ]
+}
+
+Node.js v20.15.1
+2024-08-29T22:11:40.644Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-29T22:11:45.791Z - [Storage Server] [Storage Server ERROR] node:internal/modules/cjs/loader:1148
+  throw err;
+  ^
+
+Error: Cannot find module '@fastify/static'
+Require stack:
+- /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/server.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+    at Module._load (node:internal/modules/cjs/loader:986:27)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/server.js:5:23)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:174:12) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    '/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/server.js'
+  ]
+}
+
+Node.js v20.15.1
+2024-08-29T22:11:45.795Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-29T22:14:59.683Z - [Storage Server] [Storage Server ERROR] /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/decorate.js:41
+    throw new FST_ERR_DEC_ALREADY_PRESENT(name)
+          ^
+2024-08-29T22:14:59.684Z - [Storage Server] [Storage Server ERROR] FastifyError [Error]: The decorator 'sendFile' has already been added!
+    at decorateConstructor (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/decorate.js:41:11)
+    at Object.decorateReply (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/decorate.js:116:3)
+    at fastifyStatic (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/@fastify/static/index.js:78:13)
+    at Plugin.exec (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/avvio/lib/plugin.js:125:28)
+    at Boot._loadPlugin (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/avvio/boot.js:432:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'FST_ERR_DEC_ALREADY_PRESENT',
+  statusCode: 500
+}
+
+Node.js v20.15.1
+2024-08-29T22:14:59.692Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-29T22:16:48.718Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-29T22:16:54.026Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-29T22:17:22.890Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-29T22:17:28.192Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-29T22:19:04.604Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-30T01:58:47.371Z - [Static Server] [Static Server ERROR] Error occurred: [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-08-30T01:58:47.373Z - [Static Server] [Static Server ERROR] Server crashed with error: 
+ [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-08-30T12:24:27.192Z - [Static Server] [Static Server ERROR] Error occurred: [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-08-30T12:24:27.193Z - [Static Server] [Static Server ERROR] Server crashed with error: 
+ [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-08-30T13:22:23.646Z - [Storage Server] [Storage Server ERROR] StatusCodeError: File not found
+    at isFileExist (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:8:15)
+    at fullValidation (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:58:5)
+    at fullValidationUnauthorized (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:80:18)
+    at Unauthorized.uploadImage (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:107:30)
+    at Object.handler (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/storage.js:48:40)
+    at preHandlerCallback (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:138:37)
+    at next (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/hooks.js:233:9)
+    at Immediate.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify-multer/lib/lib/make-prehandler.js:57:17)
+    at process.processImmediate (node:internal/timers:480:21) {
+  statusCode: 404
+}
+2024-08-30T13:26:36.083Z - [Storage Server] [Storage Server ERROR] StatusCodeError: File not found
+    at isFileExist (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:8:15)
+    at fullValidation (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:58:5)
+    at fullValidationUnauthorized (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:80:18)
+    at Unauthorized.uploadImage (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:107:30)
+    at Object.handler (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/storage.js:50:40)
+    at preHandlerCallback (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:138:37)
+    at next (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/hooks.js:233:9)
+    at Immediate.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify-multer/lib/lib/make-prehandler.js:57:17)
+    at process.processImmediate (node:internal/timers:480:21) {
+  statusCode: 404
+}
+2024-08-30T13:27:02.585Z - [Storage Server] [Storage Server ERROR] StatusCodeError: File not found
+    at isFileExist (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:8:15)
+    at fullValidation (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:58:5)
+    at fullValidationUnauthorized (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:80:18)
+    at Unauthorized.uploadImage (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:107:30)
+    at Object.handler (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/storage.js:50:40)
+    at preHandlerCallback (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:138:37)
+    at next (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/hooks.js:233:9)
+    at Immediate.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify-multer/lib/lib/make-prehandler.js:57:17)
+    at process.processImmediate (node:internal/timers:480:21) {
+  statusCode: 404
+}
+2024-08-30T13:32:39.314Z - [Storage Server] [Storage Server ERROR] StatusCodeError: File not found
+    at isFileExist (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:8:15)
+    at fullValidation (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:58:5)
+    at fullValidationUnauthorized (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:80:18)
+    at Unauthorized.uploadImage (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:107:30)
+    at Object.handler (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/storage.js:50:40)
+    at preHandlerCallback (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:138:37)
+    at next (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/hooks.js:233:9)
+    at /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify-multer/lib/lib/make-prehandler.js:57:17
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at listener (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/on-finished/index.js:170:15) {
+  statusCode: 404
+}
+2024-08-30T13:32:49.098Z - [Storage Server] [Storage Server ERROR] StatusCodeError: File not found
+    at isFileExist (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:8:15)
+    at fullValidation (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:58:5)
+    at fullValidationUnauthorized (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:80:18)
+    at Unauthorized.uploadImage (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:107:30)
+    at Object.handler (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/storage.js:50:40)
+    at preHandlerCallback (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:138:37)
+    at next (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/hooks.js:233:9)
+    at /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify-multer/lib/lib/make-prehandler.js:57:17
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at listener (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/on-finished/index.js:170:15) {
+  statusCode: 404
+}
+2024-08-30T13:34:17.254Z - [Storage Server] [Storage Server ERROR] StatusCodeError: Failed to retrieve image metadata
+    at getMetadata (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:20:15)
+    at fullValidation (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:63:28)
+    at fullValidationUnauthorized (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:83:18)
+    at Unauthorized.uploadImage (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:107:30)
+    at Object.handler (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/storage.js:50:40)
+    at preHandlerCallback (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:138:37)
+    at next (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/hooks.js:233:9)
+    at /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify-multer/lib/lib/make-prehandler.js:57:17
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at listener (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/on-finished/index.js:170:15) {
+  statusCode: 400
+}
+2024-08-30T13:34:18.254Z - [Storage Server] [Storage Server ERROR] /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:11
+        throw new StatusCodeError(404, 'File not found');
+              ^
+
+StatusCodeError: File not found
+    at isFileExist (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:11:15) {
+  statusCode: 404
+}
+
+Node.js v20.15.1
+2024-08-30T13:34:18.290Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-30T13:34:33.326Z - [Storage Server] [Storage Server ERROR] StatusCodeError: Failed to retrieve image metadata
+    at getMetadata (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:20:15)
+    at fullValidation (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:63:28)
+    at fullValidationUnauthorized (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:83:18)
+    at Unauthorized.uploadImage (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:107:30)
+    at Object.handler (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/storage.js:50:40)
+    at preHandlerCallback (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:138:37)
+    at next (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/hooks.js:233:9)
+    at /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify-multer/lib/lib/make-prehandler.js:57:17
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at listener (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/on-finished/index.js:170:15) {
+  statusCode: 400
+}
+2024-08-30T13:34:34.326Z - [Storage Server] [Storage Server ERROR] /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:11
+        throw new StatusCodeError(404, 'File not found');
+              ^
+
+StatusCodeError: File not found
+    at isFileExist (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:11:15) {
+  statusCode: 404
+}
+
+Node.js v20.15.1
+2024-08-30T13:34:34.331Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-30T13:36:22.905Z - [Storage Server] [Storage Server ERROR] /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:11
+        throw new StatusCodeError(404, 'File not found');
+              ^
+
+StatusCodeError: File not found
+    at isFileExist (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:11:15) {
+  statusCode: 404
+}
+
+Node.js v20.15.1
+2024-08-30T13:36:22.913Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-30T13:37:58.166Z - [Storage Server] [Storage Server ERROR] /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:11
+        throw new StatusCodeError(404, 'File not found');
+              ^
+
+StatusCodeError: File not found
+    at isFileExist (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:11:15) {
+  statusCode: 404
+}
+
+Node.js v20.15.1
+2024-08-30T13:37:58.171Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-30T13:38:55.110Z - [Storage Server] [Storage Server ERROR] /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:11
+        throw new StatusCodeError(404, 'File not found');
+              ^
+
+StatusCodeError: File not found
+    at isFileExist (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:11:15)
+    at fullValidation (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:61:5)
+    at fullValidationUnauthorized (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:83:18)
+    at Unauthorized.uploadImage (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:107:30)
+    at Object.handler (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/storage.js:50:40)
+    at preHandlerCallback (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:138:37)
+    at next (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/hooks.js:233:9)
+    at /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify-multer/lib/lib/make-prehandler.js:57:17
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at listener (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/on-finished/index.js:170:15) {
+  statusCode: 404
+}
+
+Node.js v20.15.1
+2024-08-30T13:38:55.120Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-30T13:40:49.264Z - [Storage Server] [Storage Server ERROR] /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:11
+        throw new StatusCodeError(404, 'File not found');
+              ^
+
+StatusCodeError: File not found
+    at isFileExist (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:11:15)
+    at fullValidation (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:61:5)
+    at fullValidationUnauthorized (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:83:18)
+    at Unauthorized.uploadImage (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:107:30)
+    at Object.handler (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/storage.js:50:40)
+    at preHandlerCallback (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:138:37)
+    at next (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/hooks.js:233:9)
+    at /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify-multer/lib/lib/make-prehandler.js:57:17
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at listener (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/on-finished/index.js:170:15) {
+  statusCode: 404
+}
+
+Node.js v20.15.1
+2024-08-30T13:40:49.274Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-30T13:40:59.792Z - [Storage Server] [Storage Server ERROR] /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:11
+        throw new StatusCodeError(404, 'File not found');
+              ^
+
+StatusCodeError: File not found
+    at isFileExist (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:11:15)
+    at fullValidation (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:61:5)
+    at fullValidationUnauthorized (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:83:18)
+    at Unauthorized.uploadImage (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:107:30)
+    at Object.handler (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/storage.js:50:40)
+    at preHandlerCallback (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:138:37)
+    at next (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/hooks.js:233:9)
+    at /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify-multer/lib/lib/make-prehandler.js:57:17
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at listener (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/on-finished/index.js:170:15) {
+  statusCode: 404
+}
+
+Node.js v20.15.1
+2024-08-30T13:40:59.802Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-30T13:43:00.371Z - [Storage Server] [Storage Server ERROR] /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:11
+        throw new StatusCodeError(404, 'File not found');
+              ^
+
+StatusCodeError: File not found
+    at isFileExist (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:11:15)
+    at fullValidation (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:61:5)
+    at fullValidationUnauthorized (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:83:18)
+    at Unauthorized.uploadImage (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:107:30)
+    at Object.handler (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/storage.js:51:40)
+    at preHandlerCallback (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:138:37)
+    at next (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/hooks.js:233:9)
+    at /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify-multer/lib/lib/make-prehandler.js:57:17
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at listener (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/on-finished/index.js:170:15) {
+  statusCode: 404
+}
+
+Node.js v20.15.1
+2024-08-30T13:43:00.380Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-30T13:49:34.590Z - [Storage Server] [Storage Server ERROR] /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:12
+        throw new StatusCodeError(404, 'File not found');
+              ^
+
+StatusCodeError: File not found
+    at isFileExist (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:12:15)
+    at fullValidation (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:62:5)
+    at fullValidationUnauthorized (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:84:18)
+    at Unauthorized.uploadImage (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:107:30)
+    at Object.handler (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/storage.js:51:40)
+    at preHandlerCallback (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/handleRequest.js:138:37)
+    at next (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify/lib/hooks.js:233:9)
+    at /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/fastify-multer/lib/lib/make-prehandler.js:57:17
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at listener (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/node_modules/on-finished/index.js:170:15) {
+  statusCode: 404
+}
+
+Node.js v20.15.1
+2024-08-30T13:49:34.599Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-30T14:01:14.155Z - [Storage Server] [Storage Server ERROR] StatusCodeError
+    at replaceFile (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/file.controller.js:32:15)
+    at replaceAndShortFile (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:13:29)
+    at Unauthorized.replaceImageFile (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:64:22)
+    at Unauthorized.uploadImage (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:121:31)
+    at async Object.handler (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/storage.js:51:29) {
+  statusCode: 500
+}
+2024-08-30T14:02:46.238Z - [Storage Server] [Storage Server ERROR] StatusCodeError
+    at replaceFile (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/file.controller.js:33:15)
+    at replaceAndShortFile (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:13:29)
+    at Unauthorized.replaceImageFile (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:64:22)
+    at Unauthorized.uploadImage (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:121:31)
+    at async Object.handler (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/storage.js:51:29) {
+  statusCode: 500
+}
+2024-08-30T14:10:25.141Z - [Storage Server] [Storage Server ERROR] StatusCodeError: Image dimensions exceed maximum allowed
+    at validateImageWidthAndHeight (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:44:15)
+    at fullValidation (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:68:12)
+    at async fullValidationUnauthorized (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/validation/image.validation.js:84:12)
+    at async Unauthorized.uploadImage (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:117:24)
+    at async Object.handler (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/storage.js:51:29) {
+  statusCode: 400
+}
+2024-08-30T14:33:12.631Z - [Static Server] [Static Server ERROR] Error occurred: [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-08-30T14:33:12.631Z - [Static Server] [Static Server ERROR] Server crashed with error: 
+ [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-08-30T14:33:13.940Z - [Static Server] [Static Server ERROR] Error occurred: [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-08-30T14:33:13.941Z - [Static Server] [Static Server ERROR] Server crashed with error: 
+ [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-08-30T14:33:15.040Z - [Static Server] [Static Server ERROR] Error occurred: [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-08-30T14:33:15.041Z - [Static Server] [Static Server ERROR] Server crashed with error: 
+ [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-08-30T19:26:07.715Z - [Auth Server] [Auth Server ERROR] panic: interface conversion: interface {} is nil, not string
+
+goroutine 7 [running]:
+auth_server/controllers.validateToken({0xc0000455ff?, 0xa0ef97?}, {0xc0002dc000?, 0x0?})
+	/home/svl/Documents/projects/hostings/image_hosting/service/auth_server/controllers/jwt.go:55 +0x345
+auth_server/controllers.ValidateRefreshToken(...)
+	/home/svl/Documents/projects/hostings/image_hosting/service/auth_server/controllers/jwt.go:76
+auth_server/routes.SetupRefreshRoutes.func1(0xc00018d208)
+	/home/svl/Documents/projects/hostings/image_hosting/service/auth_server/routes/refresh.router.go:21 +0x105
+github.com/gofiber/fiber/v2.(*App).next(0xc0000f1908, 0xc00018d208)
+	/home/svl/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.5/router.go:145 +0x1be
+github.com/gofiber/fiber/v2.(*App).handler(0xc0000f1908, 0x48c70f?)
+	/home/svl/go/pkg/mod/github.com/gofiber/fiber/v2@v2.52.5/router.go:172 +0x78
+github.com/valyala/fasthttp.(*Server).serveConn(0xc0001a4600, {0xae5cb8, 0xc000072f70})
+	/home/svl/go/pkg/mod/github.com/valyala/fasthttp@v1.51.0/server.go:2359 +0xe70
+github.com/valyala/fasthttp.(*workerPool).workerFunc(0xc0001380a0, 0xc00024db40)
+	/home/svl/go/pkg/mod/github.com/valyala/fasthttp@v1.51.0/workerpool.go:224 +0xa4
+github.com/valyala/fasthttp.(*workerPool).getCh.func1()
+	/home/svl/go/pkg/mod/github.com/valyala/fasthttp@v1.51.0/workerpool.go:196 +0x32
+created by github.com/valyala/fasthttp.(*workerPool).getCh in goroutine 1
+	/home/svl/go/pkg/mod/github.com/valyala/fasthttp@v1.51.0/workerpool.go:195 +0x190
+2024-08-30T19:26:07.722Z - [Auth Server] [Auth Server ERROR] exit status 2
+2024-08-30T19:26:07.736Z - [Auth Server] Auth Server exited with code 1 and signal null
+2024-08-30T21:28:12.309Z - [Storage Server] [Storage Server ERROR] Sequelize is not defined
+2024-08-30T21:28:12.310Z - [Storage Server] [Storage Server ERROR] Bad request
+2024-08-30T21:28:53.296Z - [Storage Server] [Storage Server ERROR] Sequelize is not defined
+2024-08-30T21:28:53.296Z - [Storage Server] [Storage Server ERROR] Bad request
+2024-08-30T23:25:44.216Z - [Static Server] [Static Server ERROR] Error occurred: [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-08-30T23:25:44.217Z - [Static Server] [Static Server ERROR] Server crashed with error: 
+ [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-08-30T23:25:45.175Z - [Static Server] [Static Server ERROR] Error occurred: [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-08-30T23:25:45.176Z - [Static Server] [Static Server ERROR] Server crashed with error: 
+ [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-08-30T23:25:45.749Z - [Static Server] [Static Server ERROR] Error occurred: [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-08-30T23:25:45.758Z - [Static Server] [Static Server ERROR] Server crashed with error: 
+ [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-08-31T18:42:03.545Z - [Storage Server] [Storage Server ERROR] /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:138
+    async appendGallery(image_address ,label = '', public = true) {
+                                                   ^^^^^^
+
+SyntaxError: Unexpected strict mode reserved word
+    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
+    at Module._compile (node:internal/modules/cjs/loader:1321:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/storage.js:4:22)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+
+Node.js v20.15.1
+2024-08-31T18:42:03.550Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-31T18:42:08.713Z - [Storage Server] [Storage Server ERROR] /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:138
+    async appendGallery(image_address ,label = '', public = true) {
+                                                   ^^^^^^
+
+SyntaxError: Unexpected strict mode reserved word
+    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
+    at Module._compile (node:internal/modules/cjs/loader:1321:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/storage.js:4:22)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+
+Node.js v20.15.1
+2024-08-31T18:42:08.718Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-31T18:42:13.881Z - [Storage Server] [Storage Server ERROR] /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:138
+    async appendGallery(image_address ,label = '', public = true) {
+                                                   ^^^^^^
+
+SyntaxError: Unexpected strict mode reserved word
+    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
+    at Module._compile (node:internal/modules/cjs/loader:1321:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/storage.js:4:22)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+
+Node.js v20.15.1
+2024-08-31T18:42:13.887Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-31T18:42:19.058Z - [Storage Server] [Storage Server ERROR] /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:138
+    async appendGallery(image_address ,label = '', public = true) {
+                                                   ^^^^^^
+
+SyntaxError: Unexpected strict mode reserved word
+    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
+    at Module._compile (node:internal/modules/cjs/loader:1321:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/storage.js:4:22)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+
+Node.js v20.15.1
+2024-08-31T18:42:19.063Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-31T18:42:24.229Z - [Storage Server] [Storage Server ERROR] /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:138
+    async appendGallery(image_address ,label = '', public = true) {
+                                                   ^^^^^^
+
+SyntaxError: Unexpected strict mode reserved word
+    at wrapSafe (node:internal/modules/cjs/loader:1281:20)
+    at Module._compile (node:internal/modules/cjs/loader:1321:27)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/storage.js:4:22)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+
+Node.js v20.15.1
+2024-08-31T18:42:24.234Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-08-31T23:30:50.094Z - [Static Server] [Static Server ERROR] Error occurred: [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-08-31T23:30:50.095Z - [Static Server] [Static Server ERROR] Server crashed with error: 
+ [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-08-31T23:30:50.867Z - [Static Server] [Static Server ERROR] Error occurred: [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-08-31T23:30:50.867Z - [Static Server] [Static Server ERROR] Server crashed with error: 
+ [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-08-31T23:30:51.455Z - [Static Server] [Static Server ERROR] Error occurred: [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-08-31T23:30:51.455Z - [Static Server] [Static Server ERROR] Server crashed with error: 
+ [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-09-01T00:27:29.294Z - [Static Server] [Static Server ERROR] Error occurred: [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-09-01T00:27:29.294Z - [Static Server] [Static Server ERROR] Server crashed with error: 
+ [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-09-01T00:27:30.141Z - [Static Server] [Static Server ERROR] Error occurred: [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-09-01T00:27:30.142Z - [Static Server] [Static Server ERROR] Server crashed with error: 
+ [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-09-01T00:28:13.664Z - [Static Server] [Static Server ERROR] Error occurred: [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-09-01T00:28:13.665Z - [Static Server] [Static Server ERROR] Server crashed with error: 
+ [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-09-01T00:52:07.235Z - [Static Server] [Static Server ERROR] Error occurred: [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-09-01T00:52:07.236Z - [Static Server] [Static Server ERROR] Server crashed with error: 
+ [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-09-01T00:52:08.459Z - [Static Server] [Static Server ERROR] Error occurred: [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-09-01T00:52:08.459Z - [Static Server] [Static Server ERROR] Server crashed with error: 
+ [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-09-01T00:52:08.934Z - [Static Server] [Static Server ERROR] Error occurred: [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-09-01T00:52:08.935Z - [Static Server] [Static Server ERROR] Server crashed with error: 
+ [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-09-01T00:54:50.985Z - [Static Server] [Static Server ERROR] Error occurred: [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-09-01T00:54:50.985Z - [Static Server] [Static Server ERROR] Server crashed with error: 
+ [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-09-01T00:54:51.538Z - [Static Server] [Static Server ERROR] Error occurred: [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-09-01T00:54:51.539Z - [Static Server] [Static Server ERROR] Server crashed with error: 
+ [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-09-01T00:54:52.035Z - [Static Server] [Static Server ERROR] Error occurred: [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+Server crashed with error: 
+ [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-09-01T00:54:52.547Z - [Static Server] [Static Server ERROR] Error occurred: [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+Server crashed with error: 
+ [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-09-01T00:54:53.034Z - [Static Server] [Static Server ERROR] Error occurred: [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-09-01T00:54:53.035Z - [Static Server] [Static Server ERROR] Server crashed with error: 
+ [Error: ENOENT: no such file or directory, stat '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html'] {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: '/home/svl/Documents/projects/hostings/image_hosting/service/static_server/web/build/index.html',
+  expose: true,
+  statusCode: 404,
+  status: 404
+}
+2024-09-01T16:16:53.136Z - [Storage Server] [Storage Server ERROR] Error deleting gallery: item wasnt found in gallery map: 38
+2024-09-01T16:24:09.674Z - [Storage Server] [Storage Server ERROR] Error deleting gallery: item wasnt found in gallery map: 42
+2024-09-01T16:28:18.251Z - [Storage Server] [Storage Server ERROR] Error deleting gallery: item not found in gallery map: 41
+2024-09-01T16:32:08.445Z - [Storage Server] [Storage Server ERROR] Error deleting gallery: item wasnt found in gallery map: 45
+2024-09-01T16:35:28.584Z - [Storage Server] [Storage Server ERROR] Error deleting gallery: item was not found in gallery map: 46
+2024-09-01T16:38:01.221Z - [Storage Server] [Storage Server ERROR] Error deleting gallery: item was not found in gallery map: 49
+2024-09-01T16:47:02.365Z - [Storage Server] [Storage Server ERROR] Error deleting gallery map item: TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at deleteFromGalleryMap (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/search.hash.controller.js:115:59)
+    at Client.delete (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:202:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/delete.js:9:9)
+2024-09-01T16:52:26.884Z - [Storage Server] [Storage Server ERROR] Error deleting gallery map item: TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at deleteFromGalleryMap (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/search.hash.controller.js:115:59)
+    at Client.delete (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:202:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/delete.js:9:9)
+2024-09-01T17:02:22.260Z - [Storage Server] [Storage Server ERROR] Error appending gallery map: {
+  id: undefined,
+  file_label: 'Space man',
+  image_address: 'EOqzM87E7J4Et8yB9bFGBsMf1725210142239.jpeg',
+  owner_name: undefined,
+  owner_id: undefined
+}
+2024-09-01T17:02:29.580Z - [Storage Server] [Storage Server ERROR] Error appending gallery map: {
+  id: undefined,
+  file_label: 'Space man',
+  image_address: 'yMuqRzCTcRxCbi3tAXMOS6Lg1725210149574.jpeg',
+  owner_name: undefined,
+  owner_id: undefined
+}
+2024-09-01T17:05:23.608Z - [Storage Server] [Storage Server ERROR] /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/search.hash.controller.js:1
+const { galleryDBRequest: { selectAllGallery } } = require('./db.request.controller');
+                            ^
+
+TypeError: Cannot read properties of undefined (reading 'selectAllGallery')
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/search.hash.controller.js:1:29)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/db.request.controller.js:4:34)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+
+Node.js v20.15.1
+2024-09-01T17:05:23.642Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-09-01T17:05:28.955Z - [Storage Server] [Storage Server ERROR] /home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/search.hash.controller.js:1
+const { galleryDBRequest: { selectAllGallery } } = require('./db.request.controller');
+                            ^
+
+TypeError: Cannot read properties of undefined (reading 'selectAllGallery')
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/search.hash.controller.js:1:29)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+    at Module.load (node:internal/modules/cjs/loader:1208:32)
+    at Module._load (node:internal/modules/cjs/loader:1024:12)
+    at Module.require (node:internal/modules/cjs/loader:1233:19)
+    at require (node:internal/modules/helpers:179:18)
+    at Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/db.request.controller.js:4:34)
+    at Module._compile (node:internal/modules/cjs/loader:1358:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+
+Node.js v20.15.1
+2024-09-01T17:05:28.961Z - [Storage Server] Storage Server exited with code 1 and signal null
+2024-09-01T17:07:18.872Z - [Storage Server] [Storage Server ERROR] Failed to delete file by path: /home/svl/Documents/projects/hostings/image_hosting/service/storage/uploads/Rm62jYHqXL51mpWERP8iJtOW1725210438857.jpeg
+2024-09-01T17:07:57.419Z - [Storage Server] [Storage Server ERROR] Failed to delete file by path: /home/svl/Documents/projects/hostings/image_hosting/service/storage/uploads/m0zhhdeGDxOf1U3dmi815mgj1725210477402.jpeg
+2024-09-01T17:11:20.483Z - [Storage Server] [Storage Server ERROR] Error appending gallery map: {
+  id: 63,
+  file_label: '',
+  image_address: 'LO9QTd9MRFYIBaRI3INhKriw1725210680467.jpeg',
+  owner_name: 'savely',
+  owner_id: 1
+}
+2024-09-01T17:12:40.809Z - [Storage Server] [Storage Server ERROR] Error appending gallery map: {
+  id: 64,
+  file_label: '',
+  image_address: 'qxWo9Z2Srb8ModyhhyA47JF91725210760793.jpeg',
+  owner_name: 'savely',
+  owner_id: 1
+}
+2024-09-01T17:16:04.897Z - [Storage Server] [Storage Server ERROR] Error appending gallery map: {
+  id: 65,
+  file_label: '',
+  image_address: 'GYcHbnXGMSw0DrAeDo8yM6VH1725210964883.jpeg',
+  owner_name: 'savely',
+  owner_id: 1
+}
+2024-09-01T17:16:10.345Z - [Storage Server] [Storage Server ERROR] Error appending gallery map: {
+  id: 66,
+  file_label: '',
+  image_address: 'U27jzNmP7FI6B6r9go7fkwTP1725210970341.jpeg',
+  owner_name: 'savely',
+  owner_id: 1
+}
+2024-09-01T21:16:09.323Z - [Storage Server] [Storage Server ERROR] Error deleting gallery map item: TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at deleteFromGalleryMap (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/search.hash.controller.js:113:72)
+    at Client.delete (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:204:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/delete.js:9:9)
+2024-09-01T21:16:13.707Z - [Storage Server] [Storage Server ERROR] Error deleting gallery map item: TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at deleteFromGalleryMap (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/search.hash.controller.js:113:72)
+    at Client.delete (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:204:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/delete.js:9:9)
+2024-09-01T21:26:06.135Z - [Storage Server] [Storage Server ERROR] Error deleting gallery map item: TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at deleteFromGalleryMap (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/search.hash.controller.js:113:72)
+    at Client.delete (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:204:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/delete.js:9:9)
+2024-09-01T21:43:54.527Z - [Storage Server] [Storage Server ERROR] Error deleting gallery map item: TypeError: Cannot read properties of undefined (reading 'toLowerCase')
+    at deleteFromGalleryMap (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/controllers/search.hash.controller.js:113:72)
+    at Client.delete (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/models/user.classes.js:204:9)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+    at async Object.<anonymous> (/home/svl/Documents/projects/hostings/image_hosting/service/storage_server/routers/delete.js:9:9)

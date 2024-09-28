@@ -1,0 +1,7 @@
+{
+    "ports": {
+        "static_server": 4400,
+        "api_server": 4401,
+        "auth_server": 4402
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Start Dev Ops",
+        "type": "shell",
+        "command": "bash",
+        "args": [
+          "./dev_ops"
+        ],
+        "isBackground": true
+      },
+      {
+        "label": "Start Static Server (server)",
+        "type": "shell",
+        "command": "bash",
+        "args": [
+          "./static_server/server"
+        ],
+        "isBackground": true
+      },
+      {
+        "label": "Start Static Server (web)",
+        "type": "shell",
+        "command": "bash",
+        "args": [
+          "./static_server/web"
+        ],
+        "isBackground": true
+      },
+      {
+        "label": "Start Auth Server",
+        "type": "shell",
+        "command": "bash",
+        "args": [
+          "./auth_server"
+        ],
+        "isBackground": true
+      },
+      {
+        "label": "Start Storage Server",
+        "type": "shell",
+        "command": "bash",
+        "args": [
+          "./storage_server"
+        ],
+        "isBackground": true
+      },
+      {
+        "label": "Start Docker",
+        "type": "shell",
+        "command": "bash",
+        "args": [
+          "./docker"
+        ],
+        "isBackground": true
+      }
+    ]
+  }

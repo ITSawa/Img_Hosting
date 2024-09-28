@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15
+    container_name: imagehosting_postgres_users
+    environment:
+      POSTGRES_USER: imagehosting_users_admin
+      POSTGRES_PASSWORD: imagehosting_8921
+      POSTGRES_DB: imagehosting_users
+    ports:
+      - "4432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:

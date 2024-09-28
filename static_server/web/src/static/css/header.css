@@ -1,0 +1,94 @@
+.auth-panel-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.auth-panel-content {
+    width: 100%;
+    max-width: 450px;
+    /* padding: 20px; */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.account-panel-overlay {
+    position: fixed;
+    top: 80px;
+    left: 0;
+    width: 100%;
+    height: calc(100% - 80px);
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+@media  screen and (max-width: 768px) {
+    .account-panel-overlay {
+        display: block;
+        overflow-y: scroll;
+        padding: 0px !important;
+        padding-bottom: 100px !important;
+    }
+
+    .account-panel-content {
+        width: 100% !important;
+        max-width: 100vw !important;
+        padding: 40px 20px !important;
+        padding-top: 30px !important;
+        border-radius: 8px !important;
+        position: relative !important;
+        box-shadow: none !important;
+        overflow-y: auto !important;
+        overflow-x: hidden !important;
+        max-height: 40vh !important;
+        margin-bottom: 100px !important;
+    }
+
+    .account-panel-content>div {
+        margin: 0 auto !important;
+    }
+}
+
+.account-panel-content {
+    width: 80%;
+    max-width: 1200px;
+    /* padding: 80px 40px; */
+    /* padding-top: 30px; */
+    /* padding: 10px !important; */
+    border-radius: 8px;
+    position: relative;
+    box-shadow: none !important;
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 80vh;
+    margin: 0 !important;
+}
+
+.close-account-panel-wrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 80px;
+    pointer-events: none; /* Чтобы клики не блокировались */
+}
+
+.close-account-panel {
+    pointer-events: auto; /* Разрешаем клики только на самой кнопке */
+    background: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}

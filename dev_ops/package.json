@@ -1,0 +1,13 @@
+{
+  "name": "dev_ops",
+  "version": "1.0.0",
+  "main": "nginx_boot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node service_starter.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
