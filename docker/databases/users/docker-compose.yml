@@ -6,8 +6,8 @@ services:
     container_name: imagehosting_postgres_users
     environment:
       POSTGRES_USER: imagehosting_users_admin
-      POSTGRES_PASSWORD: imagehosting_8921
-      POSTGRES_DB: imagehosting_users
+      POSTGRES_PASSWORD: PASSWORD
+      POSTGRES_DB: LOGIN
     ports:
       - "4432:5432"
     volumes:
