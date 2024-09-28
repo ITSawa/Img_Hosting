@@ -1,21 +1,76 @@
-# Project Setup and Launch Guide
+Project Setup and Launch Guide
+Database Setup
+Before using the application, you need to set up the required databases within Docker environments.
 
-# Before using the application, you must set up the required databases within Docker environments. To do this, first, 
-# navigate to the docker directory by running cd ./docker/ and initialize the Docker environments by executing node docker_boot.js start. This command will start two Docker environments necessary for the project.
+Initialize Docker Environments
+Navigate to the Docker directory:
 
-# For the Auth Server Database Setup, access the Docker container for the Auth Server using the command 
-# sudo docker-compose exec db psql -U imagehosting_users_admin -d imagehosting_users. Once inside the container, create the users table by executing the following SQL command:
+bash
 
-# CREATE TABLE users (id SERIAL PRIMARY KEY, name varchar(255), email varchar(255), password varchar(255), created_at timestamp, client_id varchar(255), role varchar(255));
+cd ./docker/
+Start the Docker environments:
 
-# Next, for the Gallery Server Database Setup, access the Docker container for the Gallery Server using the command 
-# sudo docker-compose exec db psql -U imagehosting_galery_admin -d imagehosting_galery. Inside this container, create the gallery table by executing the following SQL command:
+bash
 
-# CREATE TABLE gallery (id SERIAL PRIMARY KEY, owner_id int, owner_name varchar(255), image_address varchar(255), created_at timestamp, views int, file_label varchar(255), public boolean);
+node docker_boot.js start
+This command will start two Docker environments necessary for the project.
 
-# In addition to setting up the databases, you also need to create environment variable files (.env) for both the Auth Server and the Gallery Server. For the Auth Server, create an .env file in the ./auth_server/ directory. For the Gallery Server, create an .env file in the ./storage_server/controllers/ directory.
+Auth Server Database Setup
+Access the Docker container for the Auth Server:
 
-# Finally, you can configure the ports by editing the .env files or directly in the service_starter.js file located in the ./dev_ops/ directory. Note that the ports defined in service_starter.js have the highest priority.
-# command npm start in ./dev_ops directory will start the project also you can start it with node services_starter.js
+bash
 
-# By following these steps, you will have your project environment set up and ready to run. Make sure all configurations are correctly applied to avoid any issues during runtime.
+sudo docker-compose exec db psql -U imagehosting_users_admin -d imagehosting_users
+Create the users table by executing the following SQL command:
+
+sql
+
+CREATE TABLE users (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255),
+    email VARCHAR(255),
+    password VARCHAR(255),
+    created_at TIMESTAMP,
+    client_id VARCHAR(255),
+    role VARCHAR(255)
+);
+Gallery Server Database Setup
+Access the Docker container for the Gallery Server:
+
+bash
+
+sudo docker-compose exec db psql -U imagehosting_galery_admin -d imagehosting_galery
+Create the gallery table by executing the following SQL command:
+
+sql
+
+CREATE TABLE gallery (
+    id SERIAL PRIMARY KEY,
+    owner_id INT,
+    owner_name VARCHAR(255),
+    image_address VARCHAR(255),
+    created_at TIMESTAMP,
+    views INT,
+    file_label VARCHAR(255),
+    public BOOLEAN
+);
+Environment Variables
+You also need to create environment variable files (.env) for both the Auth Server and the Gallery Server.
+
+For the Auth Server, create an .env file in the ./auth_server/ directory.
+For the Gallery Server, create an .env file in the ./storage_server/controllers/ directory.
+Configure Ports
+You can configure the ports by editing the .env files or directly in the service_starter.js file located in the ./dev_ops/ directory. Note that the ports defined in service_starter.js have the highest priority.
+
+Start the Project
+To start the project, run the following command in the ./dev_ops directory:
+
+bash
+
+npm start
+Alternatively, you can start it with:
+
+bash
+
+node services_starter.js
+By following these steps, you will have your project environment set up and ready to run. Ensure all configurations are correctly applied to avoid any issues during runtime.
