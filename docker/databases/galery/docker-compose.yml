@@ -5,8 +5,8 @@ services:
     image: postgres:15
     container_name: imagehosting_postgres_galery
     environment:
-      POSTGRES_USER: imagehosting_galery_admin
-      POSTGRES_PASSWORD: imagehosting_8921
+      POSTGRES_USER: LOGIN
+      POSTGRES_PASSWORD: PASSWORD
       POSTGRES_DB: imagehosting_galery
     ports:
       - "4433:5432"
