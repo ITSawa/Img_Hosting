@@ -1,3 +1,1 @@
-// fix a  bug of uploading data in maps and deleting data in maps
-// now becouse it js IT NOT WORKS LIKE IT WANTS / values of the maps changes only in local file sigments but not in the main. When client try to get data from maps it will get the old data from the main file
-// bug thile uploading and bug while deleting data in maps
+
